@@ -118,11 +118,12 @@ class CustomListView extends StatelessWidget {
   final Function(int) onDelete;
   final Function(MemoData) onUpdate;
 
-  const CustomListView(
-      {super.key,
-        required this.items,
-        required this.onDelete,
-        required this.onUpdate});
+  const CustomListView({
+    super.key,
+    required this.items,
+    required this.onDelete,
+    required this.onUpdate
+  });
 
   @override
   Widget build(BuildContext context) {
