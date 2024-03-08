@@ -156,7 +156,7 @@ class CustomListView extends StatelessWidget {
                                   content: value,
                                   createAt: items[index].createAt));
                             }
-              });
+                  });
             },
           );
         });
