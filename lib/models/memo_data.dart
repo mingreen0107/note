@@ -15,6 +15,5 @@ class MemoData {
       'id' : id,
       'content' : content,
       'createAt' : createAt.toIso8601String()
-    };
-  }
+    };}
 }
